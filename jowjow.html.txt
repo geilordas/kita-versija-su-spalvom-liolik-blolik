@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+  background-color: #2DA2EC ;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: black;
+}
+
+
+nav {
+  float: left;
+  width: 30%;
+  height: 300px;
+  background: #ccc;
+  padding: 20px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #1D4CB0;
+  height: 300px;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+footer {
+  background-color: ;
+  padding: 10px;
+  text-align: center;
+  background-color: #080D19;
+}
+
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+<header>
+  <h2>Video editoriaus paslaugos</h2>
+</header>
+
+<section>
+ <nav>
+      <h3><p>Muzikos video kūrimas</p></h3>
+
+      <h3><p>Gaming montažai</p></h3>
+
+      <h3><p>Reklamos kūrimas</p></h3>
+ </nav>
+  <article>
+    <h1>Truputį apie mane</h1>
+    <p>Aš esu profesionalus video redaktorius, siūlantis platų paslaugų spektrą, pritaikytą prie įvairių klientų poreikių.</p>
+    <p>Aukštos kokybės video redagavimas gali iš esmės pagerinti bet kokio turinio poveikį. Jūsų paslauga užtikrina, kad klientų vaizdo įrašai atrodytų profesionalūs ir kokybiški.</p>
+  </article>
+</section>
+
+<footer>
+  <p><a href="https://www.fiverr.com/geilord/do-valorant-csgo-fortnite-montage?utm_source=479317&utm_medium=cx_affiliate&utm_campaign=&afp=MAjRo2wlmGmB&cxd_token=479317_33286919_MAjRo2wlmGmB&show_join=true&context_referrer=tailored_homepage_perseus&source=recently_viewed_gigs&ref_ctx_id=de547b9363484e219987f77041b0b145&context=recommendation&pckg_id=1&pos=1&context_alg=recently_viewed&seller_online=true&imp_id=98c8d429-3c98-4860-a46c-43790202b173">Mano Fiver</a></p>
+</footer>
+
+</body>
+</html>
